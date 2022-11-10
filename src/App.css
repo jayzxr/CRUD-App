@@ -1,38 +1,159 @@
-.App {
-  text-align: center;
+body{
+    background-color: #0b0c10;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.h2{
+    font-size: 1.5em;
+    width: 700px;
+    margin-left: 13em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.submit{
+    background-color: #0b0c10;
+    border-color: #66fcf1;
+    color: #66fcf1;
+    cursor: pointer;
+    font-family: Courier New, monospace;
+    font-weight:bold;
+    font-size:1.5em;
+    border-radius:15px;
+    padding:7px;
+}
+.submit:hover{
+    transform: translateY(-1px);
+}
+.submit:active {
+    transform: translateY(2px);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.updateBtn{
+    background-color: #0b0c10;
+    border-color: #66fcf1;
+    color: #66fcf1;
+    cursor: pointer;
+    font-family: Courier New, monospace;
+    font-weight:bold;
+    font-size:1em;
+    border-radius:10px;
+    padding:7px;
+}
+.updateBtn:hover{
+    transform: translateY(-1px);
+}
+.updateBtn:active {
+    transform: translateY(2px);
 }
 
-.App-link {
-  color: #61dafb;
+.my-modal .modal-content{
+    background-color: #0b0c10;
+    color: #66fcf1;
+    font-family: Courier New, monospace;
+    font-weight:bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modalBtn{
+    background-color: #0b0c10;
+    border-color: #66fcf1;
+    color: #66fcf1;
+    cursor: pointer;
+    font-family: Courier New, monospace;
+    font-weight:bold;
+    font-size:0.9em;
+    border-radius:10px;
+    padding:7px;
+    margin-left: 1em;
+    margin-top: 7em;
+}
+
+@media (max-width: 500px){
+
+    .welcome{
+        font-size: 0.5em;
+        text-align: center;
+    }
+
+    .h2{
+        font-size: 0.7em;
+        width: 250px;
+        margin-left: 5em;
+    }
+
+    .input{
+        font-size: 0.7em;
+    }
+
+    .error{
+        font-size: 0.8em;
+        margin-left: -35em;
+    }
+
+    .error1{
+        font-size: 0.8em;
+        margin-left: -35em;
+        margin-top: -1.5em;
+    }
+
+    .submit{
+        border-radius: 5px;
+        padding: 3px;
+        margin-top: 1em;
+        font-size: 2em;
+    }
+
+    .hr{
+        margin-left: -5em;
+    }
+
+    .current{
+        font-size: 0.8em;
+    }
+
+    .data{
+        font-size: 0.55em;
+        margin-left: -9em;
+    }
+
+    .email{
+        margin-left: -20em;
+    }
+
+    .buttons{
+        font-size: 0.8em;
+        margin-left: -15em;
+        padding: 0;
+    }
+
+    .updateBtn{
+        padding: 2px;
+        font-size: 1.5em;
+        border-radius: 2px;
+    }
+
+    .my-modal {
+        margin-top: 7em;
+    }
+
+    .modal-title{
+        font-size: 0.9em;
+    }
+
+    .modal-input{
+        font-size: 0.9em;
+        width: 250px;
+        padding: 1px;
+    }
+
+    .modalBtn{
+        border-radius: 5px;
+        padding: 3px;
+    }
+
+    .modal-footer{
+        font-size: 0.9em;
+        margin-left: -10em;
+    }
+
+    .Position{
+        font-size: 0.7em;
+    }
 }

@@ -1,0 +1,7 @@
+POST http://localhost:4000/app/profile
+Content-Type: application/json
+
+{
+    "name":"Jahanzeb Rehman",
+    "email":"jahanzeb@gmail.com"
+}
