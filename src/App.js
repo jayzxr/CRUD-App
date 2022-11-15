@@ -252,7 +252,7 @@ function App() {
           </Modal>
         </div>
       </div>
-      <div className='data' style={{ marginTop:'5em',}}>
+      <div className='data' style={{ marginTop:'5em', marginBottom:'2em'}}>
         {User &&
           User.map((user, index) => {
             return (
